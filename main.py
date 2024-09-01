@@ -214,9 +214,9 @@ def estrategy(resultado):
             analise_sinal = True
             print('Sinal enviado')
 
-        elif cores[0:4] == ['P', 'V', 'P', 'V']:
+        elif cores[0:4] == ['V', 'P']:
             cor_sinal = '🛑'
-            padrao = '👻Ghost👻'
+            padrao = '🥷🏽Samurai2🥷🏽'
             enviar_sinal(cor_sinal, padrao)
             analise_sinal = True
             print('Sinal enviado')
